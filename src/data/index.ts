@@ -5,8 +5,10 @@ const personalInfo = {
   name: 'Inderpal Singh',
   designation: 'Senior Software Engineer',
 
-  totalExperience: '4 years 11 months',
-  summary: `Full-Stack Software Engineer (Java | Spring | JavaScript | React).`,
+  summary: `Full-stack software engineer with nearly 5 years of experience.
+    Worked on Java / Spring Boot and React. Also built personal projects with
+    Node.js and Express. Interested in full stack roles in Java or Node.js
+    backend.`,
   email: 'inderpalsingh423@gmail.com',
   phoneNo: '+91 80532 66868',
   links: [
