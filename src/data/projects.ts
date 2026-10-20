@@ -9,15 +9,16 @@ export const projects: Project[] = [
     title: 'REST API with JWT Auth demo project',
     url: 'https://github.com/isingh6022/ts-express-rest-jwt',
     description: `Demo REST API server using Node JS and Express. The project
-      has layered architecture. It uses JWT for authentication. Written before
-      the LLM era - written by hand.`,
+      has layered architecture. It uses JWT for authentication. Hand-written
+      in 2024.`,
     technologies: 'Node.js, Express, JWT, Joi',
   },
   {
     title: 'Bookmark Manager (Chrome Extension)',
     url: 'https://github.com/isingh6022/bookmark-manager',
     description: `Browser extension providing online/offline bookmark
-      management, currently maintaining ~2,500 users on the Chrome Web Store.`,
+      management, currently maintaining ~2,500 users on the Chrome Web Store.
+      Hand-written, 2024.`,
     technologies: 'React, Redux, Express',
   },
   {
