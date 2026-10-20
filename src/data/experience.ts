@@ -39,7 +39,7 @@ export const experience: Experience[] = [
     end: 'Sep 2024',
     bullets: [
       {
-        text: `Created configurable TypeScript components in line with the
+        text: `Created configurable UI components in line with the
           event-driven architecture of internal frontend libraries.`,
       },
       {
