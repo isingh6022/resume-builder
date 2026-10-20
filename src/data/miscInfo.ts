@@ -9,8 +9,8 @@ export const personalInfo = {
   email: 'inderpalsingh423@gmail.com',
   phoneNo: '+91 80532 66868',
   links: [
-    { title: 'LinkedIn', url: 'linkedin.com/in/isingh6022' },
-    { title: 'GitHub', url: 'github.com/isingh6022' },
+    { title: 'LinkedIn', url: 'https://www.linkedin.com/in/isingh6022' },
+    { title: 'GitHub', url: 'https://github.com/isingh6022' },
   ],
 };
 
