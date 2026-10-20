@@ -6,12 +6,14 @@ function Experience() {
       <h2>Experience</h2>
       {data.experience.map((job) => (
         <div key={job.company}>
-          <h3>
-            {job.designation} | {job.company}
-          </h3>
-          <p>
-            {job.start} – {job.end}
-          </p>
+          <div className="experience-title">
+            <h3>
+              {job.designation} | {job.company}
+            </h3>
+            <p className="dates">
+              {job.start} - {job.end}
+            </p>
+          </div>
           <ul>
             {job.bullets.map((bullet) => (
               <li key={bullet.text}>

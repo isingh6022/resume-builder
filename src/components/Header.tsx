@@ -27,7 +27,7 @@ function Header() {
           <h1>{name}</h1>
           <p>{designation}</p>
         </>
-        <div>
+        <div className="contacts">
           {contactItems.map((item) => (
             <p key={item.href}>
               <span>{item.title && `${item.title}:`}</span>

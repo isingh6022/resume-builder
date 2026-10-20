@@ -1,0 +1,46 @@
+@page {
+  size: A4;
+  margin: 11mm;
+}
+
+:root {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 10pt;
+  line-height: 1.35;
+  color: #1f1f1f;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #e5e5e5;
+}
+
+main {
+  /* Tyring measurment units for first time. */
+  width: 210mm;
+  min-height: 297mm;
+  margin: 11mm auto;
+  padding: 11mm;
+  background: #fff;
+  box-shadow: 0 1px 6px rgb(0 0 0 / 0.2);
+}
+
+@media print {
+  body {
+    background: none;
+  }
+
+  main {
+    width: auto;
+    min-height: 0;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+  }
+}

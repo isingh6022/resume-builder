@@ -43,7 +43,7 @@ export const education: Education[] = [
     discipline: 'B. Tech. Civil Engineering',
   },
   {
-    institute: 'University Business School, Panjab University',
+    institute: 'U.B.S., Panjab University',
     start: 2019,
     end: 2021,
     discipline: 'M.B.A.',

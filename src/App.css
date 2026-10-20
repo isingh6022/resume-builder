@@ -1,0 +1,111 @@
+main {
+  --accent: #1a4d8f;
+  --muted: #555;
+
+  h1,
+  h2,
+  h3,
+  p,
+  ul {
+    margin: 0;
+  }
+
+  a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+
+  ul {
+    padding-left: 1.1em;
+  }
+
+  li + li {
+    margin-top: 2pt;
+  }
+
+  section {
+    margin-top: 10pt;
+
+    > div {
+      + div {
+        /* For 2 experience headings and also for skills and projects */
+        margin-top: 6pt;
+      }
+    }
+  }
+
+  h2 {
+    margin-bottom: 5pt;
+    padding-bottom: 2pt;
+    border-bottom: 1px solid var(--accent);
+    color: var(--accent);
+    font-size: 11pt;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    font-size: 10pt;
+  }
+}
+
+header {
+  padding-bottom: 6pt;
+  border-bottom: 2px solid black;
+
+  h1 {
+    font-size: 22pt;
+    line-height: 1.1;
+  }
+
+  h1 + p {
+    margin-top: 3pt;
+    color: var(--muted);
+    font-size: 11pt;
+  }
+
+  .contacts {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 4pt;
+    justify-content: end;
+    font-size: 9pt;
+
+    /* Applies parent grid layout to children of p. */
+    p {
+      display: contents;
+    }
+
+    span {
+      color: var(--muted);
+      text-align: right;
+    }
+  }
+}
+
+.container {
+  column-gap: 14pt;
+}
+
+.experience-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8pt;
+  margin-bottom: 2pt;
+
+  .dates {
+    color: var(--muted);
+    font-size: 9pt;
+    white-space: nowrap;
+  }
+}
+
+footer {
+  margin-top: 8pt;
+  padding-top: 3pt;
+  border-top: 1px solid #ddd;
+  color: var(--muted);
+  font-size: 8pt;
+  text-align: center;
+}
