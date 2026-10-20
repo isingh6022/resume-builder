@@ -52,7 +52,7 @@ export const experience: Experience[] = [
           support for concurrent users across related pages and endpoints.`,
       },
       {
-        text: `Worked on backend tasks and database management using
+        text: `Worked on backend tasks and with databases using
           Oracle SQL and PL/SQL.`,
       },
     ],
